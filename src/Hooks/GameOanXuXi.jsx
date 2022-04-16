@@ -62,7 +62,7 @@ export default function GameOanXuXi(props) {
     computerChoose == 1 && userChoose == 0 && totalWin++;
     computerChoose == 2 && userChoose == 1 && totalWin++;
     totalGames++;
-    console.log(state);
+    // console.log(state);
     setState({
       ...state,
       computerChoose: computerChoose,
