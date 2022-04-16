@@ -11,12 +11,12 @@ export default function GameOanXuXi(props) {
     computerChoose: null,
   });
   const handleChangeUserChoose = (index) => {
-    console.log(index);
+    // console.log(index);
     setState({ ...state, userChoose: index });
   };
   const handleRenderUserChoose = () => {
     let userChooseIndex = state.userChoose;
-    console.log(state);
+    // console.log(state);
     return state.userChooseImg.map((item, index) => {
       return userChooseIndex === index ? (
         <button
@@ -28,7 +28,7 @@ export default function GameOanXuXi(props) {
             border: `1px solid orange `,
           }}
           onClick={() => {
-            console.log(index);
+            // console.log(index);
             handleChangeUserChoose(index);
           }}
         >
