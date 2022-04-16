@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+@font-face {
+  font-family: fontGame;
+  src: url(./assets/fonts/Pony.ttf);
+}
+.bg-game {
+  font-family: fontGame;
+}
